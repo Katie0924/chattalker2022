@@ -52,6 +52,7 @@
 .socialmedia{
     position: relative;
     .circle-left{
+        z-index: -1;
         width: 138px;
         height: 360px;
         position: absolute;
@@ -70,6 +71,7 @@
 .service{
     position: relative;
     .circle-right{
+        z-index: -1;
         width: 210px;
         height: 310px;
         position: absolute;
@@ -89,6 +91,7 @@
 .title-l{
     position: relative;
     .circle-s{
+        z-index: -1;
         width: 150px;
         height: 150px;
         position: absolute;

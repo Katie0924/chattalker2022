@@ -121,6 +121,7 @@ button {
 }
 
 .socialmedia .circle-left {
+  z-index: -1;
   width: 138px;
   height: 360px;
   position: absolute;
@@ -143,6 +144,7 @@ button {
 }
 
 .service .circle-right {
+  z-index: -1;
   width: 210px;
   height: 310px;
   position: absolute;
@@ -166,6 +168,7 @@ button {
 }
 
 .title-l .circle-s {
+  z-index: -1;
   width: 150px;
   height: 150px;
   position: absolute;
@@ -308,6 +311,7 @@ body {
     border-bottom: 2px solid #FFD153;
     position: fixed;
     padding: 16px 20px;
+    z-index: 11;
   }
   .header .nav .logo {
     width: 130px;
@@ -479,6 +483,7 @@ body {
 }
 
 .client .client-list .client-item {
+  background-color: #fff;
   width: 100%;
 }
 
